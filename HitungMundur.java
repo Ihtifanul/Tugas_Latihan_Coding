@@ -6,16 +6,15 @@ public class HitungMundur {
             System.out.println("Anda hanya punya waktu " + i + " Detik");
             i--;
 
-             try {
+            try {
                 Thread.sleep(1000);
                 if (i == 5){
                     System.out.println("Waktu tinggal "+ i + " Detik Lagi!" );
                 } else if (i == 0) {
                     System.out.println("Waktu telah habis");
                 }
-                } catch (InterruptedException e) {  
-                    System.out.println("Error");          
-            }
-        }
-    }
+                } catch (InterruptedException e) {          
+                }
+          }
+     }
 }
