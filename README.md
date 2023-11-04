@@ -24,7 +24,7 @@
 
 # Penjelasan
 
-## 1
+## 1 (Perulangan100.java)
 
 pada Perulangan100.java saya menggunakan perulangan "for" dengan memasukkan string dengan nama. selanjutnya memasukkan angka dengan membatasinya antara angka 1 dan 9 dengan dengan menggunakan "if". yang akan mengeluarkan output dari angka 1-9
 
@@ -38,7 +38,7 @@ setelah itu menggunakan kode "else if" saat kodenya terpenuhi, maka output selan
   } else {
       System.out.println(Name);**
 
-## 2
+## 2 (HitungMundur.java)
 
 Pada HitungMundur.java saya dengan menggunakan perulangan while dengan permulaan membuat variabel **i = 10**
 lalu saya membuat kondisi while **i > 0**, jadi dengan i > 0 menandakan bahwa while tersebut memenuhi persyaratan untuk dieksekusi isinya.
@@ -60,7 +60,7 @@ kemudian menggunakan perintah "if" sebagai pengingat waktu serta menggunakan "el
 
 dan terakhir menambahkan **catch (InterruptedException e)** yang berfungsi Untuk memeriksa status interupsi thread tertentu terutama pada saat waktu jeda pada bagian **Thread.sleep(1000);**
 
-## 3
+## 3 (Zodiak.java)
 
 Pada Zodiak.java saya menggunakan **Scanner input = new Scanner(System.in);** agar dapat menginput tulisan terutama pada saat memasukkan tanggal dan bulan
 
@@ -78,7 +78,7 @@ setelah membuat metode penentuan tanggal dan bulan dari 12 zodiak, kemudian saya
 
 dan dibagian akhir dari **public static void main(String[] args) {**, saya memasukkan **input.close();** untuk mengakhiri input pada akhir kodingan saat di Run atau dijalankan.
 
-  ## 4
+  ## 4 (Array)
 
 Pada Array.java saya membuat variabel String terlebih dahulu yang berisi perkenalan nama yang dipisah dengan koma
 
