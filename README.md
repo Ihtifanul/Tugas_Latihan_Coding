@@ -6,21 +6,22 @@
 # Tugas MKU Koding
 
 1. Buatlah perulangan hingga 100 menggunakan Java dengan output sebagai berikut:
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    (Your Name)
-    (Your Name)
-    (Your Name)
-2. Buatlah program bebas, dengan menerapkan if else dalam perulangan while
-3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan
-4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   (Your Name)
+   (Your Name)
+   (Your Name)
+
+3. Buatlah program bebas, dengan menerapkan if else dalam perulangan while
+4. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan
+5. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for
 
 # Penjelasan
 
