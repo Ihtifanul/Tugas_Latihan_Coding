@@ -62,3 +62,32 @@ dan terakhir menambahkan **catch (InterruptedException e)** yang berfungsi Untuk
 
 ## 3
 
+Pada Zodiak.java saya menggunakan **Scanner input = new Scanner(System.in);** agar dapat menginput tulisan terutama pada saat memasukkan tanggal dan bulan
+
+**System.out.print("Masukkan tanggal lahir (1-31): ");**
+**int Hari = input.nextInt();**        
+**System.out.print("Masukkan bulan lahir (1-12): ");**
+**int Bulan = input.nextInt();**    
+
+setelah itu saya menggunakan **public static String metodeZodiak(int Hari, int Bulan) {** untuk membuat metode dari penentuan zodiak
+
+setelah membuat metode penentuan tanggal dan bulan dari 12 zodiak, kemudian saya memasukkan coding pada bagian **public static void main(String[] args) {** untuk melakukan scan pada bagian metode zodiak
+
+**String zodiak = metodeZodiak(Hari, Bulan);
+  System.out.println("Zodiak Anda adalah: " + zodiak);**
+
+dan dibagian akhir dari **public static void main(String[] args) {**, saya memasukkan **input.close();** untuk mengakhiri input pada akhir kodingan saat di Run atau dijalankan.
+
+  ## 4
+
+Pada Array.java saya membuat variabel String terlebih dahulu yang berisi perkenalan nama yang dipisah dengan koma
+
+**String[] Nama = { "Nama ", "Saya ", "M. ", "Ihtifanul ", "Montaghib" };** Ini adalah deklarasi dan inisialisasi array string diberi nama
+
+Selanjutnya saya menggunakan perulangan "for"
+
+**for (int i = 0; i < Nama.length; i++) {** Ini adalah loop for yang digunakan untuk mengiterasi melalui setiap elemen dalam array nama jadi sebuah variable dibuat yaitu variable bernama "i" yang berisi 0, lalu "i" itu kurang dari panjang variable nama yang merupakan array, dan "i++" sebuah perintah untuk variable "i" bertambah satu persatu.
+
+Dan Terakhir mencetak dengan menggunakan perintah
+
+**System.out.print(Nama[i]);** Di dalam loop, pernyataan ini mencetak elemen array pada indeks ke-i ke layar.
