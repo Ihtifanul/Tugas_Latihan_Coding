@@ -10,14 +10,14 @@ public class Zodiak {
         System.out.print("Masukkan bulan lahir (1-12): ");
         int Bulan = input.nextInt();
         
-        String zodiak = determineZodiak(Hari, Bulan);
+        String zodiak = MetodeZodiak(Hari, Bulan);
         
         System.out.println("Zodiak Anda adalah: " + zodiak);
         
         input.close();
     }
 
-    public static String determineZodiak(int Hari, int Bulan) {
+    public static String MetodeZodiak(int Hari, int Bulan) {
         if ((Bulan == 3 && Hari >= 21) || (Bulan == 4 && Hari <= 19)) {
             return "Aries";
         } else if ((Bulan == 4 && Hari >= 20) || (Bulan == 5 && Hari <= 20)) {
