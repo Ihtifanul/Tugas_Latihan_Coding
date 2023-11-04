@@ -1,4 +1,4 @@
-# Tugas_Latihan_Coding
+ meng# Tugas_Latihan_Coding
 ## Nama : M. Ihtifanul Montaghib
 ## NPM  : G1A023094
 ## Informatika, B
@@ -40,4 +40,4 @@ setelah itu menggunakan kode "else if" saat kodenya terpenuhi, maka output selan
 
 ## 2
 
-Pada LoopBebas.java saya menggunakan 
+Pada LoopBebas.java saya dengan menggunakan peruangan while 
