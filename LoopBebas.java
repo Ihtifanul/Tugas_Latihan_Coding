@@ -15,5 +15,8 @@ public class LoopBebas {
             if (i == 0) {
         System.out.println("Waktu telah habis!");
         }
+            else {
+        System.out.println("Waktu telah habis");
+        }
     }
 }
