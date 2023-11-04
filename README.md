@@ -34,10 +34,10 @@ pada Perulangan100.java saya menggunakan perulangan "for" dengan memasukkan stri
 
 setelah itu menggunakan kode "else if" saat kodenya terpenuhi, maka output selanjutnya akan di input sebanyak 100 kali
 
-**} else if (i == 10) {
-      System.out.println(Name);
-  } else {
-      System.out.println(Name);**
+**} else if (i == 10) {**
+      **System.out.println(Name);**
+  **} else {**
+      **System.out.println(Name);**
 
 ## 2 (HitungMundur.java)
 
