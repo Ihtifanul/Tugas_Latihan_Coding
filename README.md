@@ -40,4 +40,10 @@ setelah itu menggunakan kode "else if" saat kodenya terpenuhi, maka output selan
 
 ## 2
 
-Pada LoopBebas.java saya dengan menggunakan peruangan while 
+Pada HitungMundur.java saya dengan menggunakan perulangan while dengan permulaan membuat variabel **i = 10**
+lalu saya membuat kondisi while **i > 0**, jadi dengan i > 0 menandakan bahwa while tersebut memenuhi persyaratan untuk dieksekusi isinya.
+selanjutnya saya memasukkan System.out.println untuk mencetak outputnya dan menambahkan "i--" untuk mengurangi satu persatu dari nilai variabel i (10)
+
+**System.out.println("Anda hanya punya waktu " + i + " Detik");
+   i--;**
+ 
