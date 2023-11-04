@@ -46,4 +46,19 @@ selanjutnya saya memasukkan System.out.println untuk mencetak outputnya dan mena
 
 **System.out.println("Anda hanya punya waktu " + i + " Detik");
    i--;**
- 
+
+gunakan perintah "Try" untuk blok yang digunakan untuk menempatkan kode-kode program Java yang memungkinkan terjadinya exception
+selanjutnya saya memasukkan **Thread.sleep(1000);** untuk mengatur waktu jeda output per millis (Millisecond)
+
+kemudian menggunakan perintah "if" sebagai pengingat waktu serta menggunakan "else if" sebagai pertanda waktu telah habis dengan ditambahkan keterangan tulisan
+
+**if (i == 5){
+       System.out.println("Waktu tinggal "+ i + " Detik Lagi!" );
+   } else if (i == 0) {
+       System.out.println("Waktu telah habis");
+   }**
+
+dan terakhir menambahkan **catch (InterruptedException e)** yang berfungsi Untuk memeriksa status interupsi thread tertentu terutama pada saat waktu jeda pada bagian **Thread.sleep(1000);**
+
+## 3
+
